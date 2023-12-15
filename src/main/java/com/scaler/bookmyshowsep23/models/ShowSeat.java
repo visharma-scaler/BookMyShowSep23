@@ -12,7 +12,7 @@ import java.util.Date;
 public class ShowSeat extends BaseModel {
 
     @ManyToOne
-    private MovieShow movieShow;
+    private Show show;
 
     @ManyToOne
     private Seat seat;
